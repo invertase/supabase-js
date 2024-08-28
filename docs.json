@@ -2,6 +2,21 @@
     "name": "Supabase JS SDK",
     "description": "A cool SDK.",
     "theme": {
-        "primary": "#3dd08e"
-    }
+      "primary": "#3dd08e"
+    },
+    "sidebar": [
+        {
+          "group": "Getting Started",
+          "pages": [
+            {
+              "title": "Installation",
+              "href": "/"
+            },
+            {
+              "title": "Memes",
+              "href": "/memes"
+            }
+          ]
+        }
+    ]
   }
