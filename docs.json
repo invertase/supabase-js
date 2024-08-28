@@ -1,0 +1,7 @@
+{
+    "name": "Supabase JS SDK",
+    "description": "A cool SDK.",
+    "theme": {
+        "primary": "#3dd08e"
+    }
+  }
