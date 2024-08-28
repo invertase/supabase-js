@@ -4,6 +4,7 @@
     "theme": {
       "primary": "#3dd08e"
     },
+    "favicon": "https://supabase.com/favicon/favicon-96x96.png",
     "sidebar": [
         {
           "group": "Getting Started",
