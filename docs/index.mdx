@@ -2,6 +2,54 @@
 title: Hello docs.page
 ---
 
-# Welcome to docs.page
+Welcome to Supabase JS SDK Docs!
+
+<Steps>
+  <Step title="Install via NPM">
+    Install via npm:
+
+    ```js
+    npm install @supabase/supabase-js
+    ```
+
+    The `newpackage` executable will be available in your terminal.
+  </Step>
+  <Step title="Initialize" icon="gear">
+    Initialize Supabase
+
+    ```js
+    import { createClient } from '@supabase/supabase-js'
+
+    // Create a single supabase client for interacting with your database
+    const supabase = createClient('https://xyzcompany.supabase.co', 'public-anon-key')
+    ```
+  </Step>
+  <Step>
+    Start a local development server.
+
+    ```js
+    supabase init
+    supabase start
+    ```
+  </Step>
+</Steps>
+
+
+---
+
+Some quality memes while you wait:
+
+<AccordionGroup>
+  <Accordion defaultOpen title="Open by default">
+    <Tweet id="1828092582691278925" />
+  </Accordion>
+  <Accordion title="Click me to expand the accordion">
+    <Tweet id="1827400760176390195" />
+  </Accordion>
+</AccordionGroup>
+
+
+
+
 
 
